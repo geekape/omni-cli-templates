@@ -8,10 +8,13 @@
 export default {
   created() {
     console.log(this)
-  }
+  },
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.index {
+  background: red;
+  font-size: 18px;
+}
 </style>
